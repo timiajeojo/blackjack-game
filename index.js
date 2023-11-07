@@ -16,3 +16,7 @@ if (sum < 20) {
 }
 
 console.log(message);
+
+function startGame() {
+    
+}
