@@ -17,7 +17,9 @@ h1 {
      font-style: italic;
 }
 
-#startButton {
+
+Button {
+    display:
     text color: #016f32;
     width: 150px;
      background: goldenrod;
@@ -26,4 +28,5 @@ h1 {
      font-weight: bold;
      border: none;
      border-radius: 2px;
+     margin-bottom: 4px;
 }
