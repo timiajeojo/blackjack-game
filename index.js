@@ -14,7 +14,7 @@ function startGame() {
 }
 
 function renderGame() {
-    
+    // 2. Refer to the cards array when rendering out the cards
     cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
@@ -29,9 +29,9 @@ function renderGame() {
     messageEl.textContent = message
 }
 
+
 function newCard() {
-    let card = 5
+    let card = 6
     sum += card
     renderGame()
-    
 }
